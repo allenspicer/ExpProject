@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F8766961DBCE6DC0051F47A /* LocalStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F8766951DBCE6DC0051F47A /* LocalStrings.strings */; };
 		9F93DA3B1DBCE3B0001A7184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DA3A1DBCE3B0001A7184 /* AppDelegate.swift */; };
 		9F93DA3D1DBCE3B0001A7184 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DA3C1DBCE3B0001A7184 /* MasterViewController.swift */; };
 		9F93DA3F1DBCE3B0001A7184 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F93DA3E1DBCE3B0001A7184 /* DetailViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F8766951DBCE6DC0051F47A /* LocalStrings.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = LocalStrings.strings; sourceTree = "<group>"; };
 		9F93DA371DBCE3B0001A7184 /* ExpProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F93DA3A1DBCE3B0001A7184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F93DA3C1DBCE3B0001A7184 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F8766971DBCE75D0051F47A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F8766951DBCE6DC0051F47A /* LocalStrings.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		9F93DA2E1DBCE3B0001A7184 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +73,7 @@
 				9F93DA431DBCE3B0001A7184 /* Assets.xcassets */,
 				9F93DA451DBCE3B0001A7184 /* LaunchScreen.storyboard */,
 				9F93DA481DBCE3B0001A7184 /* Info.plist */,
+				9F8766971DBCE75D0051F47A /* Resources */,
 			);
 			path = ExpProject;
 			sourceTree = "<group>";
@@ -127,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F93DA471DBCE3B0001A7184 /* LaunchScreen.storyboard in Resources */,
+				9F8766961DBCE6DC0051F47A /* LocalStrings.strings in Resources */,
 				9F93DA441DBCE3B0001A7184 /* Assets.xcassets in Resources */,
 				9F93DA421DBCE3B0001A7184 /* Main.storyboard in Resources */,
 			);
@@ -295,6 +307,7 @@
 				9F93DA4D1DBCE3B0001A7184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
