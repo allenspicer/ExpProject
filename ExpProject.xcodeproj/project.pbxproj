@@ -15,6 +15,7 @@
 		9F93DA421DBCE3B0001A7184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA401DBCE3B0001A7184 /* Main.storyboard */; };
 		9F93DA441DBCE3B0001A7184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA431DBCE3B0001A7184 /* Assets.xcassets */; };
 		9F93DA471DBCE3B0001A7184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA451DBCE3B0001A7184 /* LaunchScreen.storyboard */; };
+		9FC0DBC61DBD1AD70025A26D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0DBC51DBD1AD70025A26D /* Podfile */; };
 		9FEB24B91DBCF1E5001B9DB0 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB24B81DBCF1E5001B9DB0 /* Data.json */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		9F93DA431DBCE3B0001A7184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F93DA461DBCE3B0001A7184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F93DA481DBCE3B0001A7184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC0DBC51DBD1AD70025A26D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		9FEB24B81DBCF1E5001B9DB0 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +58,7 @@
 		9F93DA2E1DBCE3B0001A7184 = {
 			isa = PBXGroup;
 			children = (
+				9FC0DBC51DBD1AD70025A26D /* Podfile */,
 				9F93DA391DBCE3B0001A7184 /* ExpProject */,
 				9F93DA381DBCE3B0001A7184 /* Products */,
 			);
@@ -148,6 +151,7 @@
 				9FEB24B91DBCF1E5001B9DB0 /* Data.json in Resources */,
 				9F8766991DBCE9450051F47A /* Data.bundle in Resources */,
 				9F93DA441DBCE3B0001A7184 /* Assets.xcassets in Resources */,
+				9FC0DBC61DBD1AD70025A26D /* Podfile in Resources */,
 				9F93DA421DBCE3B0001A7184 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
