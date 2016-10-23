@@ -92,14 +92,27 @@ class MasterViewController: UITableViewController {
 
     
     func dataManager(){
+        
+        do{
     
         let fileName = NSBundle.mainBundle().pathForResource("Data", ofType: "json")
         if ((fileName) != nil) {
             // ...
-        }
-        else {
-            NSLog("Couldn't find file!");
-        }
+            NSLog(fileName!)
+            let fileData = NSData.init(contentsOfFile: fileName!)
+            let data = try NSJSONSerialization.dataWithJSONObject(fileData!, options: [])
+            let dataString = NSString(data: data, encoding: NSUTF8StringEncoding)!
+            print(dataString)
+        }else{
+            NSLog("Couldn't find file!")
+            }
+
+            
+            }catch{
+                print("JSON serialization failed:  \(error)")
+            }
+        
+        
     }
 
 }
