@@ -24,6 +24,7 @@ class MasterViewController: UITableViewController {
         if let split = self.splitViewController {
             let controllers = split.viewControllers
             self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController
+        self.dataManager()
         }
     }
 
@@ -89,6 +90,21 @@ class MasterViewController: UITableViewController {
         }
     }
 
+    
+    func dataManager(){
+    
+        let fileName = NSBundle.mainBundle().pathForResource("Data", ofType: "json")
+        if ((fileName) != nil) {
+            // ...
+        }
+        else {
+            NSLog("Couldn't find file!");
+        }
+        
+        
+        
+        
+    }
 
 }
 
