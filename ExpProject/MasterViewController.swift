@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Gloss
+
 
 class MasterViewController: UITableViewController {
 
