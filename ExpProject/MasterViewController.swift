@@ -100,10 +100,6 @@ class MasterViewController: UITableViewController {
         else {
             NSLog("Couldn't find file!");
         }
-        
-        
-        
-        
     }
 
 }
