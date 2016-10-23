@@ -15,6 +15,7 @@
 		9F93DA421DBCE3B0001A7184 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA401DBCE3B0001A7184 /* Main.storyboard */; };
 		9F93DA441DBCE3B0001A7184 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA431DBCE3B0001A7184 /* Assets.xcassets */; };
 		9F93DA471DBCE3B0001A7184 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F93DA451DBCE3B0001A7184 /* LaunchScreen.storyboard */; };
+		9FEB24B91DBCF1E5001B9DB0 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 9FEB24B81DBCF1E5001B9DB0 /* Data */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9F93DA431DBCE3B0001A7184 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F93DA461DBCE3B0001A7184 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F93DA481DBCE3B0001A7184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEB24B81DBCF1E5001B9DB0 /* Data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Data; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,8 @@
 		9F8766971DBCE75D0051F47A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9FEB24B81DBCF1E5001B9DB0 /* Data */,
+				9F8766981DBCE9450051F47A /* Data.bundle */,
 				9F8766951DBCE6DC0051F47A /* LocalStrings.strings */,
 			);
 			name = Resources;
@@ -71,7 +75,6 @@
 				9F93DA3A1DBCE3B0001A7184 /* AppDelegate.swift */,
 				9F93DA3C1DBCE3B0001A7184 /* MasterViewController.swift */,
 				9F93DA3E1DBCE3B0001A7184 /* DetailViewController.swift */,
-				9F8766981DBCE9450051F47A /* Data.bundle */,
 				9F93DA401DBCE3B0001A7184 /* Main.storyboard */,
 				9F93DA431DBCE3B0001A7184 /* Assets.xcassets */,
 				9F93DA451DBCE3B0001A7184 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				9F93DA471DBCE3B0001A7184 /* LaunchScreen.storyboard in Resources */,
 				9F8766961DBCE6DC0051F47A /* LocalStrings.strings in Resources */,
+				9FEB24B91DBCF1E5001B9DB0 /* Data in Resources */,
 				9F8766991DBCE9450051F47A /* Data.bundle in Resources */,
 				9F93DA441DBCE3B0001A7184 /* Assets.xcassets in Resources */,
 				9F93DA421DBCE3B0001A7184 /* Main.storyboard in Resources */,
